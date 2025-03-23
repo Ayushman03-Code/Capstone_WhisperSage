@@ -31,8 +31,8 @@ const Documentation = () => {
             </p>
             <ul className="list-disc pl-6 space-y-2">
             <li>Frontend - React.js with TailwindCSS for a responsive UI.</li>
-            <li>Backend - Node.js and Express.js for handling API requests.</li>
-            <li>Database - MongoDB for storing metadata and user queries.</li>
+            <li>Backend - Node.js and FastAPI for handling API requests.</li>
+            <li>Database - VectorDB (Chrome/FAISS) for vector embedding and search & retrival of Data</li>
             <li>LLMs - Supports **Ollama** and **OpenAI GPT-4o** for natural language processing.</li>
             <li>Retrieval-Augmented Generation (RAG) - Used to enhance responses by fetching relevant information from the provided sources.</li>
             <li>Whisper API - For high-accuracy multilingual transcription.</li>

@@ -28,7 +28,7 @@ const Sidebar = ({ isOpen, toggleSidebar, setActiveComponent }) => {
               onClick={() => setActiveComponent("Chatbot")}
               className="w-full text-left hover:text-blue-400 transition duration-200"
             >
-              WhisperSage Chatbot
+              WhisperSage Report
             </button>
           </li>
         </ul>

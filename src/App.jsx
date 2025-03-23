@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Application from "./pages/Application"; // ✅ Import Application Page
-import Documentation from "./pages/Documentation"; // ✅ Import Documentation Page
-const Team = () => <h1 className="text-white text-3xl">Our Team</h1>;
+import Documentation from "./pages/Documentation"; 
+import Team from "./pages/Team";
+
 
 function App() {
   return (
